@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="GodotProjectTemplate"
+run/main_scene="res://scenes/menu_principal.tscn"
 config/features=PackedStringArray("4.1", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -18,3 +19,7 @@ config/icon="res://icon.svg"
 
 Global="*res://scripts/Global.gd"
 Opciones="*res://scripts/Opciones.gd"
+
+[gui]
+
+theme/custom="res://tema_pricipal.tres"
